@@ -1,12 +1,12 @@
-import configmodule from "./configmodule"
-import debugmodule from "./debugmodule"
-import footermodule from "./footermodule"
-import homepagemodule from "./homepagemodule"
-import networkmodule from "./networkmodule"
-import pagemodule from "./pagemodule"
-import startupmodule from "./startupmodule"
-import ultramodule from "./ultramodule"
-import utilmodule from "./utilmodule"
+import * as configmodule from "./configmodule"
+import * as debugmodule from "./debugmodule"
+import * as footermodule from "./footermodule"
+import * as homepagemodule from "./homepagemodule"
+import * as networkmodule from "./networkmodule"
+import * as pagemodule from "./pagemodule"
+import * as startupmodule from "./startupmodule"
+import * as ultramodule from "./ultramodule"
+import * as utilmodule from "./utilmodule"
 
 Modules = {
     configmodule,
